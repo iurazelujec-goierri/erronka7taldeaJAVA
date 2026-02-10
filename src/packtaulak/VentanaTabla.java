@@ -20,6 +20,15 @@ public class VentanaTabla extends JFrame{
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
         cargarDatos();
+        table.getSelectionModel().addListSelectionListener(e->{
+        	if(!e.getValueIsAdjusting()){
+        		int fila=table.getSelectedRow();
+        		if(fila!=-1){
+        			System.out.println("Fila seleccionada: "+fila);
+        		}
+        	}
+        });
+
         add(new JScrollPane(table),BorderLayout.CENTER);
         setVisible(true);
     }
