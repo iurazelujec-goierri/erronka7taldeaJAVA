@@ -6,6 +6,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Iura Zelujec/OneDrive - Goierri Eskola/GOIERRI/ERRONKA 2/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Iker/Downloads/fontbox-2.0.35.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Iker/Downloads/pdfbox-2.0.35.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Iker/Downloads/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Iker/Downloads/mysql-connector-j-9.6.0/mysql-connector-j-9.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
